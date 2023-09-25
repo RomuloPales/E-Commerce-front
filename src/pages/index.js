@@ -1,10 +1,10 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
-  return <>
-    <h1> olá estou na pagina inicial!!!!</h1>
-  </>;
+import FormLoginSignin from "@/components/formLoginSignin"
+export default function Example() {
+  return (
+    <>
+    <h1> pagina inicial</h1>
+    <FormLoginSignin/>
+    <h1> footer</h1>
+    </>
+  )
 }

@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "next": "latest",
-    "react": "latest",
+    "react": "^18.2.0",
     "react-dom": "latest",
     "windstitch": "^0.3.0"
   },
